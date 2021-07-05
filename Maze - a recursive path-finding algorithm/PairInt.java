@@ -1,5 +1,3 @@
-package mazeAssignment;
-
 public class PairInt {
 	
 	private int x;
