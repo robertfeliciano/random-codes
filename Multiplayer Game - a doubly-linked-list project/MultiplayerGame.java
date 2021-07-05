@@ -319,7 +319,7 @@ public class MultiplayerGame {
 		g0.addGamePiece(2, "Taniks", 40);
 		g0.addGamePiece(2, "Savathun", 60);
 		System.out.println(g0.toString());
-		g0.swapPieces(1, 2);										//[WORKS]
+		g0.swapPieces(1, 2);
 		System.out.println(g0.toString());
 		*/
 		//System.out.println(g0.pExists(2));
@@ -330,17 +330,17 @@ public class MultiplayerGame {
 		g1.addGamePiece(1, "OrangePiece", 17);
 		g1.removeAllGamePieces(1);
 		System.out.println(g1.size());
-		//g1.removePlayer(1);										//[WORKS]
+		//g1.removePlayer(1);
 		System.out.println(g1.toString());
-		//System.out.println(g1.hasGamePiece("BluePiece"));			//[WORKS]
-		//System.out.println(index[0].getName());					//[WORKS]
-		//g1.increaseStrength(2, 5);								//[WORKS]
-		//System.out.println(index[2].next);						//[WORKS]
-		//System.out.println(g1.size());							//[WORKS]
+		//System.out.println(g1.hasGamePiece("BluePiece"));
+		//System.out.println(index[0].getName());
+		//g1.increaseStrength(2, 5);
+		//System.out.println(index[2].next);
+		//System.out.println(g1.size());
 		 */
 		/*Expected output: 
 		[Player0; Player1; GamePiece: OrangePiece strength: 17; GamePiece: PurplePiece 
-		strength: 2; Player2; GamePiece: BluePiece strength: 5]		//[WORKS]
+		strength: 2; Player2; GamePiece: BluePiece strength: 5]
 		*/
 		
 		/*
@@ -361,7 +361,7 @@ public class MultiplayerGame {
 		//System.out.println(g2.toStringReverse());
 		 */
 		/*Expected output:
-		[Player0; Player2; GamePiece: BluePiece strength: 8]		//[WORKS]
+		[Player0; Player2; GamePiece: BluePiece strength: 8]
 		*/
 		
 		
@@ -384,7 +384,7 @@ public class MultiplayerGame {
 		/*
 		Expected output:
 		[Player0; Player1; GamePiece: OrangePiece strength: 17; Player2; 
-		GamePiece: BluePiece strength: 5]							//[WORKS]
+		GamePiece: BluePiece strength: 5]
 		*/
 	}
 
