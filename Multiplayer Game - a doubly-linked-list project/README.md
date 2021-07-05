@@ -5,6 +5,7 @@ For this assignment we had to implement a doubly linked list from scratch in Jav
 A MultiplayerGame consists of GameEntities, which can be either GamePieces or GamePlayers. First, players are added to the Game. Then, Pieces with "strength" values are added to specific players. The following is an example of how the doubly linked list would be strucured:
 
 -------> Player1 <-> BluePiece <-> PurplePiece <-> Player2 <-> YellowPiece <-> Player3 <-> Player4 <-------
+
 (Imagine Player1 and Player4 are connected in the example, I couldn't figure out how to draw it on my keyboard).
 
 ### Editing the Game
