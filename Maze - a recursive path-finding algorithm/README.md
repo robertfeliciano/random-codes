@@ -13,6 +13,6 @@ The files were written by Elliot B. Koffman and Paul A.T. Wolfgang, who are the 
 To run the program, please download all the files and save them in the same directory. You may then run MazeTest.java in any IDE of your choice.
 
 Currently, MazeTest.java will find the shortest path. You can change what the program does in main method by commenting/uncommenting specified lines. The program can do the following:
-* Find any path in the maze. This would just be the first one it finds/
+* Find any path in the maze. This would just be the first one it finds.
 * Find *all* the possible paths in the maze.
 * Find the *shortest* possible path in the maze.
