@@ -1,5 +1,3 @@
-package hw3;
-
 public abstract class GameEntity {
 	protected GameEntity next; 
 	protected GameEntity prev;
