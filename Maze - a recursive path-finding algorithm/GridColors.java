@@ -1,5 +1,3 @@
-package mazeAssignment;
-
 import java.awt.Color;
 
 /**
